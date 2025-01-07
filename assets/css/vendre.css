@@ -1,0 +1,144 @@
+.featured-services {
+    background: url('../img/bg-team.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px 0;
+  }
+  .featured-services .service-info {
+    margin: 0 0 30px 0;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px 25px;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+}
+.service-info .icon {
+    position: absolute;
+    font-size: 40px;
+}
+
+.service-info .icon i {
+    color: #ffb400;
+}
+.service-info .detail {
+    margin-left: 60px;
+} 
+.service-info h3 {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    color: #0880e8;
+    margin-bottom: 10px;
+}
+.service-info p {
+    line-height: 26px;
+    margin-bottom: 0;
+    font-size: 15px;
+    position: relative;
+}
+.featured-services .service-info1 {
+    margin: 0 0 30px 0;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px 25px;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+}
+.service-info1 .icon {
+    position: absolute;
+    font-size: 40px;
+}
+.service-info1 .icon i {
+    color: #ffb400;
+}
+.service-info1 .detail {
+    margin-left: 60px;
+} 
+.service-info1 h3 {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    color: #0880e8;
+    margin-bottom: 10px;
+}
+.service-info1 p {
+    line-height: 26px;
+    margin-bottom: 0;
+    font-size: 15px;
+    position: relative;
+}
+
+.info-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.info-contact .vendeur-info{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin-right: 30px;
+    padding: 20px 30px;
+  
+}
+.info-contact .vendeur-info input{
+    margin-top: 10px;
+    padding: 6px 13px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 7px;
+    outline: none;
+}
+.info-contact .vendeur-info select{
+    margin-top: 10px;
+    padding: 6px 13px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 7px;
+    outline: none;
+}
+.info-contact .vendeur-info h3{
+    color: #0880e8;
+    font-weight: 600;
+}
+.info-contact .voiture-info{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    padding: 20px 30px;
+  
+}
+.info-contact .voiture-info input{
+    margin-top: 10px;
+    padding: 6px 13px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 7px;
+    outline: none;
+}
+.info-contact .voiture-info select{
+    margin-top: 10px;
+    padding: 6px 13px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 7px;
+    outline: none;
+}
+.info-contact .voiture-info h3{
+    color: #0880e8;
+    font-weight: 600;
+}
+.btn-send{
+    float: right;
+    background-color: #ffb400;
+    color: #fff;
+    padding: 6px 13px;
+    border-radius: 7px ;
+    border: none;
+    margin-right:320px ;
+}

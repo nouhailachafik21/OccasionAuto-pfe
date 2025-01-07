@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200&family=Quicksand:wght@300&family=Shippori+Antique+B1&display=swap');
+.featured-services {
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px 0;
+  }
+  .featured-services .icon-box {
+    padding: 30px;
+    margin-top: 150px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+  }
+  .featured-services .icon-box::before {
+    content: "";
+    position: absolute;
+    background: #cbe0fb;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  .featured-services .icon {
+    margin-bottom: 15px;
+  }
+  .featured-services .icon i {
+    font-size: 48px;
+    line-height: 1;
+    color: #f6b024;
+    transition: all 0.3s ease-in-out;
+  }
+  .featured-services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .featured-services .title a {
+    color: rgba(5, 87, 158, 0.9) ;
+  }
+  .featured-services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+
+
+ /*********************
+ ---------acheter-------------
+ **************************/
+ /*end Services*/
+ .Services{
+     background-color: #f8f8f8;
+     padding-left: 20%;
+
+ }
+
+ .Services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+    margin-top: 100px;
+
+
+  }
+
+  .Services .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 17px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    background: #f8f8f8;
+  }
+  .Services .icon i {
+    font-size: 36px;
+    line-height: 1;
+    color: #ffb727;
+  }
+  .Services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .Services .title  {
+    color: rgb(83, 82, 82);
+    transition: 0.3s;
+  }
+  .Services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  .Services .icon-box:hover {
+    border-color: #ffb727;
+  }
+  .Services .icon-box:hover .title a {
+    color: #ffb727;
+  }
+
+
+/*end Services*/
+.sidebar{
+  margin:0 0 30px 0;
+  padding: 13px ;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  max-width: 350px;
+  min-height: 250px;
+
+}
+
+.part-search .form-control{
+  margin-bottom: 10px;
+}
+.range-prix{
+  margin-bottom: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+input[type="range"]{
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: block;
+  width: 80%;
+  height: 8px;
+  background-color: #d5d5d5;
+  border-radius: 8px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-runnable-track{
+  -webkit-appearance: none;
+  height: 8px;
+}
+input[type="range"]::-moz-track{
+  -moz-appearance: none;
+  height: 8px;
+}
+input[type="range"]::-ms-track{
+  appearance: none;
+  height: 8px;
+}
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: #f6b024;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -6px;
+  border: none;
+}
+input[type="range"]::-moz-range-thumb{
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: #f6b024;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -6px;
+  border: none;
+}
+input[type="range"]::-ms-thumb{
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: #f6b024;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -6px;
+  border: none;
+}
+input[type="range"]:active::-webkit-slider-thumb{
+  background-color: #ffffff;
+  border: 3px solid #f6b024;
+}
+#slider-value{
+  width: 13%;
+  position: relative;
+  font-size: 20px;
+  color: rgb(70, 70, 70);
+  text-align: center;
+  font-family: "Roboto Mono",monospace;
+  margin-left: 8px;
+  margin-right: 35px;
+  border-radius: 5px;
+}
+.title-sidebar{
+  color: #767779;
+  margin-left: 13px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+.contact-info{
+
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contact-info ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #535353;
+}
+.contact-info ul li{
+  line-height: 25px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.contact-info ul li i{
+  color: #ffb400;
+  margin-right: 3px ;
+  font-size: 20px;
+}
+.social ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #535353;
+}
+.social ul a i{
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  color: #fff;
+  margin: 2px 4px 2px 0;
+}
+.social ul a .fa-facebook-f{
+  background-color: rgb(12, 133, 214);
+}
+.social ul a .fa-google-plus-g{
+  background-color: rgba(228, 72, 72, 0.842);
+}
+.social ul a .fa-instagram{
+  background-color: rgba(233, 116, 7, 0.747);
+}
+.social ul a .fa-linkedin-in{
+  background-color: rgb(12, 150, 214);
+}
+.social ul a .fa-whatsapp{
+  background-color: rgb(12, 214, 113);
+}
+.featurd-vehicule .car-box{
+  position: relative;
+  margin-bottom: 30px;
+  background: #fff;
+  width: 90%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: 1s;
+}
+.car-top>span{
+
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+  z-index: 1;
+
+}
+.car-top{
+  position: relative;
+  height: 300px;
+  display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+overflow: clip();
+
+}
+.car-top span img{
+z-index: 2;
+
+}
+.car-box:hover{
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+.expand{
+  color: #fff;
+  text-align: right;
+  border: 1px solid #fff;
+  position: absolute;
+  bottom: 15px;
+  padding: 6px 12px;
+  right: 16px;
+  z-index: 20;
+  opacity: 0;
+  font-weight: 700;
+}
+.expand i{
+  color: #fff;
+}
+.featurd-vehicule .car-box:hover .expand{
+  opacity: 1;
+  transition: 1s;
+}
+
+.car-box .car-details .name{
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+.car-box .car-details .name:hover{
+  color: #0665b7;
+}
+.car-details{
+  padding: 5px;
+}
+.car-details .details-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.car-details .details-list li{
+  font-weight: 400;
+  font-size: 14px;
+  list-style: none;
+  line-height: 35px;
+}
+.car-details .details-list li i{
+  color: #666;
+}
+.car-details h6{
+  font-size: 18px;
+  color: #666;
+}
+.icon-buy{
+  text-align: right;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  z-index: 20;
+}
+.icon-buy i{
+  color:  #f6b024;
+  font-weight: 700;
+  font-size: 20px;
+}

@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.car-detail{
+     margin-top: 100px;
+    padding: 40px 0;
+}
+.car-detail .prod-top{
+    display: flex;
+    justify-content: space-between;
+}
+.car-detail .prod-top .refrence{
+
+    color: rgb(82, 79, 79);
+     padding: 6px 13px;
+     font-size: 15px;
+     font-weight: bold;
+
+}
+.car-detail .prod-top .cart-panier .btn-top{
+    border: none;
+    background-color: rgba(10, 106, 190, 0.9);
+    font-size: 18px;
+    color: #A9A9A9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 6px 13px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 12px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.car-detail .prod-top .cart-panier .btn-top a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.slider-slider-box{
+    position: relative;
+    overflow: hidden;
+}
+.slide_detail img {
+    width: 100%;
+}
+.car-detail .car-content .car-content-top{
+    background-color: #f6f6f6f6;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+}
+.car-detail .car-content .car-content-top h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #323232;
+    text-align: left;
+}
+.car-detail .car-content .car-content-top .prix-info{
+    font-size: 20px;
+    text-align: left;
+}
+.car-detail .car-content .car-options{
+    padding: 20px 0 30px;
+}
+.car-detail .fiche{
+    font-size: 14px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    margin-right: 15px;
+}
+.car-detail .fiche i{
+    font-size: 25px;
+    margin-right: 4px;
+}
+.hr-bleu{
+    background-color:rgba(10, 106, 190, 0.9) ;
+    text-align: center;
+    padding: 5px 15px;
+}
+.hr-bleu .title{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.form-group{
+    display: block;
+
+}
+.from-controls{
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 1.6;
+    color: #0195cf;
+    height: 39px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d8dde6;
+    border-radius: 3px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #6d7e9c;
+    outline: none;
+    margin-top: 5px;
+}
+.btn-from{
+    text-align: right;
+}
+.btn-from button{
+    background-color: #f6b024;
+    padding: 6px 13px;
+    color: #fff;
+    border: none;
+    margin-top: 3px;
+}
+.extra-feature h2{
+    color: rgba(10, 106, 190, 0.9);
+    position: relative;
+}
+.accordion {
+    border:  1px solid rgba(10, 106, 190, 0.9);
+    margin-bottom:3px;
+    color: rgba(10, 106, 190, 0.9);
+    cursor: pointer;
+    padding: 6px 13px;
+    width: 100%;
+    font-size:18px;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background-color: #fff;
+  }
+
+  .active, .accordion:hover {
+    color: rgba(10, 106, 190, 0.9);
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: rgba(10, 106, 190, 0.9);
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .panel {
+    padding: 0 25px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: 1px solid #e3e3e3;
+  }
+  .panel ul {
+      list-style: none;
+  }
+  .panel ul li{
+      font-size:18px ;
+  }
+  .panel ul li i{
+      font-size: 18px;
+      color: rgba(10, 106, 190, 0.9);
+      margin-right: 5px;
+  }
+  .contact-info{
+
+    width: 100%;
+    padding: 6px 13px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .contact-info ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #535353;
+  }
+  .contact-info ul li{
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .contact-info ul li i{
+    color: #ffb400;
+    margin-right: 3px ;
+    font-size: 20px;
+  }
+  .social ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #535353;
+  }
+  .social ul a i{
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #fff;
+    margin: 2px 4px 2px 0;
+  }
+  .social ul a .fa-facebook-f{
+    background-color: rgb(12, 133, 214);
+  }
+  .social ul a .fa-google-plus-g{
+    background-color: rgba(228, 72, 72, 0.842);
+  }
+  .social ul a .fa-instagram{
+    background-color: rgba(233, 116, 7, 0.747);
+  }
+  .social ul a .fa-linkedin-in{
+    background-color: rgb(12, 150, 214);
+  }
+  .social ul a .fa-whatsapp{
+    background-color: rgb(12, 214, 113);
+  }
+
+.slider_detail{
+
+  overflow: hidden;
+}
+
+.slides_detail{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides_detail input{
+  display: none;
+}
+
+.slide_detail{
+  width: 20%;
+  transition: 2s;
+}
+
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #f6b024;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #f6b024;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #f6b024;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #f6b024;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #f6b024;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #f6b024;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #f6b024;
+}
+

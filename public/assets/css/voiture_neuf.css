@@ -1,0 +1,146 @@
+
+/*------------------------------------------------------------------
+[Main Stylesheet]
+
+Project:    Autocar
+Version:    1.1.0
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+    1. Top Header / .top-header
+    2. Main Header / .main-header
+    3. Home Page Banner (Main Home) / .banner
+    4. Banner Search Box / .search-area
+    5. Featured Car / .featured-car
+    6. Single Page Banner / .sub-banner
+    7. Car List View / .car-box-2
+    8. Car Grid View / .car-box
+    9. Single Car Details / .car-details-page
+    10. Listing Page Sidebar /.sidebar
+    11. Testimonials / .testimonials
+    12. Pricing Table /.pricing-container
+    13. Agent Contact Form /.agent-widget
+    14. Car Comments /.car-comments
+    15. Specifications /.specifications
+    16. Application Counter / .counters
+    17. Blog /.blog-body
+    18. Contact Form /.contact-form
+    19. Signup/Login Wrapper /.form-content-box
+    20. Pagination /.pagination
+    21. Main Footer / .main-footer
+    22. Sub Footer / .sub-footer
+-------------------------------------------------------------------*/
+/** Global classes**/
+
+
+
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    cursor: pointer;
+    color: #4d4d4d;
+}
+.content-area {
+  padding: 100px 0 20px;
+}
+
+.content-area-3 {
+  margin-bottom: 36px;
+}
+
+.content-area-4 {
+  padding: 100px 0 50px;
+}
+
+.content-area-5 {
+  padding: 100px 0;
+}
+
+.content-area-6 {
+  padding: 40px 0 50px;
+}
+
+.content-area-7 {
+  padding-bottom: 85px;
+}
+
+.content-area-8 {
+  padding: 185px 0 70px;
+}
+
+.content-area-9 {
+  padding: 100px 0 90px;
+}
+
+.content-area-10 {
+  padding: 100px 0 60px;
+}
+
+.content-area-11 {
+  padding: 100px 0;
+}
+
+.content-area-12 {
+  padding: 100px 0 80px;
+}
+
+.content-area-13 {
+  padding: 100px 0 85px;
+}
+
+.content-area-14 {
+  margin-bottom: 90px;
+}
+
+.content-area-15 {
+  padding: 100px 0 10px;
+}
+
+.content-area-16{
+  padding: 100px 0 90px;
+}
+
+.content-area-17{
+  padding: 100px 0 80px;
+}
+
+.content-area-18{
+  padding: 185px 0 100px;
+}
+
+.content-area-19{
+  padding: 100px 0 50px;
+}
+
+.content-area-19{
+  padding: 100px 0 50px;
+}
+
+.brand-box {
+  text-align: center;
+  padding: 20px 10px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+  color: #505050;
+}
+
+.brand-box img {
+  height: 50px;
+}
+
+.brand-box h5 {
+  margin: 25px 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.brand-box h6 {
+  margin: 0;
+  font-size: 14px;
+  color: #535353;
+}
